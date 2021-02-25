@@ -1,0 +1,108 @@
+
+.logo{
+    height: 21px;
+    width: 52px;
+    margin-left: 30px;
+}
+.carsoul{
+    height: 500px;
+    
+}
+.inlinelist li{
+    padding-right: 10px;
+    padding-left: 10px;
+    display: inline;
+    border-right: 1px solid white; 
+  
+}
+
+.inlinelist li:last-child{
+    border-right: none;
+}
+.centered {
+    text-align: center;
+    color: white;
+    font-size: 18px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    z-index: 1;
+  }
+  .btncustome button{
+      margin-left:18px;
+      margin-bottom: 18PX;
+       margin-top:20px;
+      text-align: center;
+    color: white;
+    padding-left: 10px;
+    padding-right:10px;
+  }
+  .btncustome button:hover {
+      background-color: black;
+      color: white;
+      border-color:black;
+  }
+  .padding-0 .col{
+     
+      padding: 0;
+      margin: 0;
+  }
+  .picgrid  img:hover{
+      transform: scale(1.2);
+      
+
+  }
+
+
+  .hide div{
+    overflow:hidden;
+   
+  }
+
+ 
+  
+ 
+
+  .linklchg a:hover, a:visited ,a:active,a {
+      text-decoration: none;
+      color: white;
+
+
+  }
+
+  .linklchg a:hover{
+    text-decoration: none;
+     color: gray;    
+
+}
+.btn:hover{
+    background-color: black;
+    border-color: black;
+}
+
+.orderbtn{
+    text-align: center;
+    width:150px;
+    border-radius: 2px;
+}
+.orderbtn:hover{
+    background-color: black;
+    border-color: black;
+}
+.mydropdown{
+    opacity: 0.9;
+   
+
+}
+/* bootstrap overridding*/
+.dropdown-item:hover{
+    background-color:#E32526;
+    opacity: 0.9;
+}
+
+.btncolor{
+   
+    background-color: #E32526;
+   
+}
