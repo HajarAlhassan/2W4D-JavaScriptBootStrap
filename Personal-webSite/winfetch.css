@@ -1,0 +1,40 @@
+.navitem a{
+    font-size: 20px;
+    margin-bottom: 10px;
+    padding-right: 20px;
+
+}
+
+.foot-sub{
+    color: red;
+    font-weight: bold;
+}
+footer {
+    background-color: #eed7d3;
+  
+  }
+  .bgcolor{
+      background-color: #d81a5e;
+      color:white;
+      font-weight: bold;
+  }
+  .card >.caption,.caption:visited,.caption:active,.card>a{
+    box-sizing: border-box;
+    width:100%;
+    height: 25%;
+   
+    font-weight: bold;
+    color: black;
+    text-align: center;
+    border:1 solid black;
+    font-size:20px;
+    text-shadow:1px 2px  #ebc622;
+    text-decoration: none;
+    
+}
+
+.caption:hover{
+    transform: scale(1.2);
+    text-shadow:2px 2px  #da5730;
+   font-weight: bolder;
+}
